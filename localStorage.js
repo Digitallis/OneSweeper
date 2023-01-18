@@ -47,7 +47,7 @@ export class Settings {
         } catch {
             window._one_settings = DEFAULTS;
         }
-
+        Settings.save();
         return window._one_settings;
     }
 
