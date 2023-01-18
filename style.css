@@ -9,6 +9,6 @@ html,body {
   overflow: hidden;
   min-width: 100vw;
   min-height: 100vh;
-  background-image: linear-gradient(#fff8, #fff8), url('/images/1p.png');
+  background-image: linear-gradient(#fff8, #fff8), url('./images/1p.png');
   background-size: 100%;
 }
