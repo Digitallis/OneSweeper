@@ -40,7 +40,7 @@ export class Settings {
         let str = localStorage.getItem('settings');
         try {
             let settings = JSON.parse(str);
-            if (typeof settings == 'object')
+            if (settings !=null)
                 window._one_settings = settings;
             else
                 window._one_settings = DEFAULTS;
